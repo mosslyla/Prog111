@@ -7,7 +7,32 @@
    Author: Lyla Moss
    Date:  May 6, 2017 
 
-   Filename:         c_styles.css
+   Filename:         c_styles.css <link href="sa_styles.css" rel="stylesheet" type="text/css"/>
    Supporting Files: none
 
 */
+header
+{
+	h1=text-color:yellow;
+	font-family: Courier New;
+	font-size:28;
+	kerning: 20px;
+	text-align: center;
+}
+
+body
+{
+	background-color: rgb(0, 0, 0);
+	color: white;
+	font-family: Century Gothic, sans-serif;
+}
+
+article h2 {
+		font-size:24px;
+		font-weight: normal;
+		text-align: justify;
+}
+
+.keyword {
+	color: yellow;
+}
